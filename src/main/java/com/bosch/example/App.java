@@ -1,9 +1,9 @@
 package com.bosch.example;
 
 /**
- * Hello world!
- *
+ * This file is licenses under BSD-3-Clause.
  */
+
 public class App 
 {
     public static void main( String[] args )
