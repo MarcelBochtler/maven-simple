@@ -33,6 +33,12 @@
 
   <dependencies>
 
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-codec</artifactId>
+      <version>4.1.86.Final</version>
+    </dependency>
+
     <!-- <dependency>
       <groupId>org.postgresql</groupId>
       <artifactId>postgresql</artifactId>
@@ -76,7 +82,7 @@
     <connection>scm:git:https://github.com/MarcelBochtler/maven-simple.git</connection>
   </scm>
 
-  <build>
+  <!-- <build>
     <pluginManagement>      <!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
@@ -120,5 +126,5 @@
         </plugin>
       </plugins>
     </pluginManagement>
-  </build>
+  </build> -->
 </project>
