@@ -1,6 +1,5 @@
-curations:
-  packages:
-    - id: Maven:io.netty:netty-codec:4.1.63.Final
-      curations:
-        concluded_license: Apache-2.0
-        comment: Test
+license_choices:
+  package_license_choices:
+    - package_id: "Maven:net.java.dev.jna:jna:5.12.1"
+      license_choices:
+        - choice: Apache-2.0
