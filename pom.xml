@@ -34,7 +34,7 @@
   <dependencies>
 
     <dependency>
-      <groupId>org.java.dev.jna</groupId>
+      <groupId>net.java.dev.jna</groupId>
       <artifactId>jna</artifactId>
       <version>5.12.1</version>
     </dependency>
