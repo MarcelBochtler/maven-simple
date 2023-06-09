@@ -34,10 +34,16 @@
   <dependencies>
 
     <dependency>
+      <groupId>org.java.dev.jna</groupId>
+      <artifactId>jna</artifactId>
+      <version>5.12.1</version>
+    </dependency>
+
+    <!-- <dependency>
       <groupId>io.netty</groupId>
       <artifactId>netty-codec</artifactId>
       <version>4.1.63.Final</version>
-    </dependency>
+    </dependency> -->
 
     <!-- <dependency>
       <groupId>org.postgresql</groupId>
