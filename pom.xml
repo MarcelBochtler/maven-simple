@@ -33,11 +33,11 @@
 
   <dependencies>
 
-    <dependency>
+    <!-- <dependency>
       <groupId>net.java.dev.jna</groupId>
       <artifactId>jna</artifactId>
       <version>5.12.1</version>
-    </dependency>
+    </dependency> -->
 
     <!-- <dependency>
       <groupId>io.netty</groupId>
@@ -63,11 +63,11 @@
       <version>3.1.0</version>
     </dependency> -->
 
-    <!-- <dependency>
+    <dependency>
         <groupId>me.xdrop</groupId>
         <artifactId>fuzzywuzzy</artifactId>
         <version>1.4.0</version>
-    </dependency> -->
+    </dependency>
 
     <!-- <dependency>
         <groupId>org.apache.poi</groupId>
