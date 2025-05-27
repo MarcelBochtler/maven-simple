@@ -3,3 +3,9 @@ license_choices:
     - package_id: "Maven:net.java.dev.jna:jna:5.12.1"
       license_choices:
         - choice: Apache-2.0
+
+resolutions:
+  rule_violations:
+    - message: ".*"
+      reason: EXAMPLE_OF_EXCEPTION
+      comment: "This is a resolution that solves everything!"
