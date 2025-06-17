@@ -1,0 +1,2 @@
+--extra-index-url https://artifactory.boschdevcloud.com/artifactory/api/pypi/modana-bios-pypi-local/simple
+modanalit=="2.23.0+streamlit.1.45"
