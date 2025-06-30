@@ -3,3 +3,10 @@ license_choices:
     - package_id: "Maven:net.java.dev.jna:jna:5.12.1"
       license_choices:
         - choice: Apache-2.0
+
+resolutions:
+  issues:
+    - message: ".*"
+      reason: BUILD_TOOL_ISSUE
+      comment: "Comment"
+
