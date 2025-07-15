@@ -1,1 +1,5 @@
-click==8.1.8
+# This requires the index configuration:
+# https://osi9be:password@artifactory.boschdevcloud.com/artifactory/api/pypi/modana-bios-pypi-local/simple
+modanalit=="2.23.0+streamlit.1.45"
+
+# click==8.1.8
