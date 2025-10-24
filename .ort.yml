@@ -3,3 +3,16 @@ license_choices:
     - package_id: "Maven:net.java.dev.jna:jna:5.12.1"
       license_choices:
         - choice: Apache-2.0
+
+snippet_choices:
+- provenance:
+    url: "https://github.com/MarcelBochtler/maven-simple.git"
+  choices:
+  - given:
+      source_location:
+        path: "pom.xml"
+        start_line: -1
+        end_line: -1
+    choice:
+      reason: "NO_RELEVANT_FINDING"
+      comment: "Explain why this location has only false positives snippets"
