@@ -4,15 +4,15 @@ license_choices:
       license_choices:
         - choice: Apache-2.0
 
-# snippet_choices:
-# - provenance:
-#     url: "https://github.com/MarcelBochtler/maven-simple.git"
-#   choices:
-#   - given:
-#       source_location:
-#         path: "pom.xml"
-#         start_line: -1
-#         end_line: -1
-#     choice:
-#       reason: "NO_RELEVANT_FINDING"
-#       comment: "Explain why this location has only false positives snippets"
+snippet_choices:
+- provenance:
+    url: "https://github.com/MarcelBochtler/maven-simple.git"
+  choices:
+  - given:
+      source_location:
+        path: ".vscode/pom.xml"
+        start_line: -1
+        end_line: -1
+    choice:
+      reason: "NO_RELEVANT_FINDING"
+      comment: "Explain why this location has only false positives snippets"
