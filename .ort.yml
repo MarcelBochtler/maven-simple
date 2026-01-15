@@ -1,0 +1,6 @@
+curations:
+  packages:
+    - id: Maven:me.xdrop:fuzzywuzzy:1.4.0
+      curations:
+        concluded_license: Apache-2.0
+
