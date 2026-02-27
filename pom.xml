@@ -9,7 +9,6 @@
   <version>1.0</version>
 
   <name>maven-simple</name>
-  <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
   <!-- <repositories>
@@ -64,10 +63,16 @@
     </dependency> -->
 
     <dependency>
-        <groupId>me.xdrop</groupId>
-        <artifactId>fuzzywuzzy</artifactId>
-        <version>1.4.0</version>
+        <groupId>com.googlecode.lanterna</groupId>
+        <artifactId>lanterna</artifactId>
+        <version>3.1.2</version>
     </dependency>
+
+    <!-- <dependency> -->
+    <!--     <groupId>me.xdrop</groupId> -->
+    <!--     <artifactId>fuzzywuzzy</artifactId> -->
+    <!--     <version>1.4.0</version> -->
+    <!-- </dependency> -->
 
     <!-- <dependency>
         <groupId>org.apache.poi</groupId>
