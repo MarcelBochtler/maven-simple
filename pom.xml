@@ -33,35 +33,36 @@
 
   <dependencies>
 
-    <!-- <dependency>
+    <dependency>
       <groupId>net.java.dev.jna</groupId>
       <artifactId>jna</artifactId>
       <version>5.12.1</version>
-    </dependency> -->
+    </dependency>
 
-    <!-- <dependency>
+    <dependency>
       <groupId>io.netty</groupId>
       <artifactId>netty-codec</artifactId>
       <version>4.1.63.Final</version>
-    </dependency> -->
+    </dependency>
 
-    <!-- <dependency>
+    <dependency>
       <groupId>org.postgresql</groupId>
       <artifactId>postgresql</artifactId>
       <version>42.4.0</version>
-    </dependency> -->
+    </dependency>
 
-    <!-- <dependency>
-        <groupId>com.github.oss-review-toolkit</groupId>
-        <artifactId>ort</artifactId>
-        <version>513939e420</version>
-    </dependency> -->
+  <dependency>
+      <groupId>org.ossreviewtoolkit</groupId>
+      <artifactId>model</artifactId>
+      <version>92.0.0</version>
+  </dependency>
+
     <!-- MIT dependency -->
-    <!-- <dependency>
+    <dependency>
       <groupId>com.vdurmont</groupId>
       <artifactId>semver4j</artifactId>
       <version>3.1.0</version>
-    </dependency> -->
+    </dependency>
 
     <dependency>
         <groupId>me.xdrop</groupId>
@@ -69,19 +70,19 @@
         <version>1.4.0</version>
     </dependency>
 
-    <!-- <dependency>
+    <dependency>
         <groupId>org.apache.poi</groupId>
         <artifactId>poi-ooxml-lite</artifactId>
         <version>5.2.2</version>
-    </dependency> -->
+    </dependency>
 
     <!-- Test dependency -->
-    <!-- <dependency>
+    <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter</artifactId>
       <version>5.8.2</version>
       <scope>test</scope>
-    </dependency> -->
+    </dependency>
   </dependencies>
 
   <scm>
